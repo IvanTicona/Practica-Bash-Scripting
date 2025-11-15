@@ -99,18 +99,14 @@ La parte más compleja fue configurar el envío de correos. El script usa el com
 > # Habilita la sintaxis de URL moderna
 > set v15-compat
 >
-> # 1\. Tu email de "From"
->
+> # Tu email de "From"
 > set from="tu-email@gmail.com"
 >
-> # 2\. El "Mail Transfer Agent" (MTA)
->
+> # El "Mail Transfer Agent" (MTA)
 > # Define el servidor SMTP, usuario, contraseña y puerto
->
 > set mta=smtps://tu-email%40gmail.com:TU\_CONTRASEÑA\_DE\_APLICACIÓN@smtp.gmail.com:465
 >
-> # 3\. Forzar autenticación
->
+> # Forzar autenticación
 > set mta-auth=login
 > ```
 
