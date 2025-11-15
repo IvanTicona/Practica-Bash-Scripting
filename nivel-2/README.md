@@ -152,7 +152,7 @@ El bonus requería ejecutar el script automáticamente a las 2 AM. Esto implica 
 > # 1. Instalar
 > sudo pacman -S cronie
 > ```
-
+>
 > # 2. Iniciar y Habilitar el servicio
 >
 > sudo systemctl start cronie.service
