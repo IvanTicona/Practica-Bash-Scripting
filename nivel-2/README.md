@@ -152,16 +152,13 @@ El bonus requería ejecutar el script automáticamente a las 2 AM. Esto implica 
 > # 1. Instalar
 > sudo pacman -S cronie
 > ```
->
+> ```bash
 > # 2. Iniciar y Habilitar el servicio
->
 > sudo systemctl start cronie.service
 > sudo systemctl enable cronie.service
->
 > ```
 > 
 > Si no haces esto, el comando `crontab` no existirá (`command not found`).
-> ```
 
 > [!NOTE]
 > **Paso 2: Editar el Crontab de `root`**
