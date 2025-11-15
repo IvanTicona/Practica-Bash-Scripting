@@ -98,7 +98,6 @@ La parte más compleja fue configurar el envío de correos. El script usa el com
 > # --- Configuración Moderna de s-nail (v15+) ---
 > # Habilita la sintaxis de URL moderna
 > set v15-compat
-> ```
 
 > # 1\. Tu email de "From"
 >
@@ -114,7 +113,6 @@ La parte más compleja fue configurar el envío de correos. El script usa el com
 >
 > set mta-auth=login
 >
-> ```
 > ```
 
 > [\!WARNING]
